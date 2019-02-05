@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<title>cis255 - jQuery - Intro Exercise</title>
+		<link rel="icon" href="../cardinal_logo.png" type="image/png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8" />
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.6.4.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.js"></script>
+
+		
+	</head>
+	
+	<body>
+	
+		
+		
+		<button>Click me</button>
+		<div id="div1">
+		<p>CLOSE THIS</p>
+		<p id="demo">This is a demonstration.</p>
+		</div>
+
+		
+
+	<script>
+	
+	
+	$(document).ready(function(){
+    $("button").click(function(){
+        $("#div1").load("demo_test.txt");
+    });
+});
+</script>	
+	</body>
+	
+</html>
+
+

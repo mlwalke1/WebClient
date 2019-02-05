@@ -1,0 +1,95 @@
+<!DOCTYPE html> 
+<html> 
+
+	<head> 
+	
+		<title>Basic mobile app</title> 
+		<meta charset="utf-8" />  
+		<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />  
+		<link rel="stylesheet" href="https://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.css" />
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.6.4.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.js"></script>
+		
+	</head> 
+	
+	<body> 
+	
+		<!-- Home -->
+		<div data-role="page" id="index">
+			<header data-role="header">
+				<h1>Top title bar</h1>
+			</header>
+			<div data-role="content">
+				<h3>Show another page??</h3>
+				<p>hint: click the button below!</p>
+				<p><a href="#about" data-role="button" data-theme="a">About us</a></p> 
+				<p><a href="#about" data-role="button" data-theme="b">About us</a></p> 
+				<p><a href="#about" data-role="button" data-theme="c">About us</a></p>
+				<p><a href="#about" data-role="button" data-theme="d">About us</a></p> 
+				<p><a data-inline="true" href="#about" data-role="button" data-theme="e">About us</a> 
+				<a data-inline="true" href="#about" data-role="button" data-theme="a">About us</a> <a data-inline="true" href="#about" data-role="button" data-theme="a">About us</a></p> 
+			</div>
+
+			<footer data-role="footer">
+				<h2>&copy; footer here.</h2>
+			</footer>
+			
+		</div>
+
+		<!-- About -->
+		<div data-role="page" id="about" data-add-back-btn="true">
+			<header data-role="header">
+				<a href="index.html" data-icon="gear" data-theme="b" class="ui-btn-right">Settings</a>
+				<h1>Page 2 Here</h1>
+			</header>
+
+			<div data-role="content">
+				<p>just some extra content as well.</p>
+				<p>I mean, you can <a data-rel="back" href="#index">go back</a> at any time.</p>
+			</div>
+			<footer data-role="footer" class="ui-body-b">
+			  <div data-role="navbar">
+				<ul>
+				  <li><a href="#index" data-direction="reverse">App Homescreen!</a></li>
+				  <li><a href="http://www.google.com/" data-rel="external">Google Me</a></li>
+				  <li><a href="http://www.hongkiat.com/" data-rel="external">Hongkiat Blog</a></li>
+				</ul>
+			  </div>
+			</footer>
+		</div>
+
+
+	</body>
+	
+</html>
+<!-- 
+INSTRUCTIONS
+
+1. copy The Standard HTML Template code from: 
+https://www.hongkiat.com/blog/build-websites-apps-jquery-mobile/
+
+2. optional: read All You Need to Know About the HTML5 Data Attribute
+https://webdesign.tutsplus.com/tutorials/all-you-need-to-know-about-the-html5-data-attribute--webdesign-9642
+
+3. copy the Constructing the Body Content code from:
+https://www.hongkiat.com/blog/build-websites-apps-jquery-mobile/
+
+4. test the code in your browser
+if it does not work you might have to change all instances of "http:" to "https:"
+
+5. add 4 more buttons and use the other themes "a" through "e", like this:
+    <p><a href="#about" data-role="button" data-theme="b">About us</a></p>
+
+6. add attribute-value to your last button: data-inline="true" 
+
+7. copy Top Bar Buttons code from: 
+https://www.hongkiat.com/blog/build-websites-apps-jquery-mobile/
+this code will add "Back" button to About page 
+
+8. copy Footer Navigation code to your About page from:
+https://www.hongkiat.com/blog/build-websites-apps-jquery-mobile/
+	
+more ideas...
+http://view.jquerymobile.com/master/demos/
+-->
