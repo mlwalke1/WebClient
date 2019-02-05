@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		#ex1  {
+			background-color: lightblue;
+		}
+
+		#ex1 h1 {
+			color: white;
+			text-align: center;
+		}
+
+		#ex1 p {
+			font-family: verdana;
+			font-size: 20px;
+		}
+		
+		#ex2 p, #ex3 p, #para1, #ex5 .center, #ex6 p.center, #ex7 p.center,
+		#ex8 p, #ex8 h1, #ex8 h2, #ex9 p {
+			color: red;
+			/* This is a single-line comment */
+			text-align: center;
+		}
+		
+		p.large {
+			font-size: 300%;
+		} 
+		
+		#ex10 {
+		    background-color: lightblue;
+		}
+		
+		#ex10 h1 {
+			color: navy;
+			margin-left: 20px;
+		}
+		
+		
+		/* This is
+		a multi-line
+		comment */
+
+	</style>
+</head>
+<body>
+	<div id="ex1">
+		<h1>My First CSS Example</h1>
+		<p>This is a paragraph.</p>
+	</div>
+	<div id="ex2">
+		<p>Hello World!</p>
+		<p>These paragraphs are styled with CSS.</p>
+	</div>
+	<div id="ex3">
+		<p>Every paragraph will be affected by the style.</p>
+		<p >Me too!</p>
+		<p>And me!</p>
+	</div>
+	<div id="ex4">
+		<p id="para1">Hello World!</p>
+		<p>This paragraph is not affected by the style.</p>
+	</div>
+	<div id="ex5">
+		<h1 class="center">Red and center-aligned heading</h1>
+		<p class="center">Red and center-aligned paragraph.</p> 
+	</div>
+	<div id="ex6">
+		<h1 class="center">This heading will not be affected</h1>
+		<p class="center">This paragraph will be red and center-aligned.</p> 
+	</div>
+	<div id="ex7">
+		<h1 class="center">This heading will not be affected</h1>
+		<p class="center">This paragraph will be red and center-aligned.</p>
+		<p class="center large">This paragraph will be red, center-aligned, and in a large font-size.</p> 
+	</div>
+	<div id="ex8">
+		<h1>Hello World!</h1>
+		<h2>Smaller heading!</h2>
+		<p>This is a paragraph.</p>
+	</div>
+	<div id="ex9">
+		<p>Hello World!</p>
+		<p>This paragraph is styled with CSS.</p>
+		<p>CSS comments are not shown in the output.</p>
+	</div>
+	<div id="ex10">
+		<h1>This is a heading</h1>
+		<p>This is a paragraph.</p>
+	</div>
+	
+</body>
+</html>
